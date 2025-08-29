@@ -159,7 +159,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "https://vercel.com/ahmed-raza-bajwas-projects/premium-blog-frontend/7tj9JBkoUjnSPFPJxFxKnBAL3Qed",
 ]
-CORS_ALLOW_ALL_ORIGINS = True
 
 import os
 SECRET_KEY = os.environ.get('SECRET_KEY', 'your-default-secret-key')
