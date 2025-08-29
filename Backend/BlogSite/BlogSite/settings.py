@@ -155,11 +155,11 @@ REST_FRAMEWORK = {
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "https://premium-blog-frontend.vercel.app",
-]
-
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:5173",
+#     "https://premium-blog-frontend.vercel.app",
+# ]
+CORS_ALLOW_ALL_ORIGINS = True
 
 import os
 SECRET_KEY = os.environ.get('SECRET_KEY', 'your-default-secret-key')
