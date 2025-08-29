@@ -157,8 +157,9 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://vercel.com/ahmed-raza-bajwas-projects/premium-blog-frontend/7tj9JBkoUjnSPFPJxFxKnBAL3Qed",
+    "https://premium-blog-frontend.vercel.app",
 ]
+
 
 import os
 SECRET_KEY = os.environ.get('SECRET_KEY', 'your-default-secret-key')
